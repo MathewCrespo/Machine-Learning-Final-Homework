@@ -7,7 +7,7 @@ MASK_SIZE = 32
 train_val_num = 465
 test_num = 117
 
-train_dir = './data/train_val2/'
+train_dir = './data/train_val/'
 test_dir = './data/test/'
 
 train_list = pd.read_table("./data/train_val.csv", sep=",")['name']
